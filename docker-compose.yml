@@ -43,8 +43,8 @@ services:
     volumes:
       - ./data:/data
     ports:
-      - 9200:9200
-      - 9300:9300
+      - 9400:9400
+      - 9500:9500
     networks:
       aurum_net:
         aliases:
