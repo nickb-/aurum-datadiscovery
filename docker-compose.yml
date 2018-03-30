@@ -14,7 +14,7 @@
 # 5. docker-compose up frontend
 #     Runs the web frontend and API on http://localhost:3000 and http://localhost:5000 respectively. Uses pickles from data/pickles.
 
-version: '3'
+version: '2'
 
 networks:
   aurum_net:
